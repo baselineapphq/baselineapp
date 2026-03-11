@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/icon.png" width="96" alt="BaselineApp icon"/>
+<img width="512" height="512" alt="icon" src="https://github.com/user-attachments/assets/f65cccdf-bc3c-4cb9-8dcb-930e2cb70909" />
 
 # BaselineApp
 
