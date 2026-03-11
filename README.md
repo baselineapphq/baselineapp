@@ -97,53 +97,6 @@ BaselineApp is a **professional-grade baseball development tracker** built for p
 
 ---
 
-## 🏗️ Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Frontend | React 18 + Vite |
-| Styling | Tailwind CSS + custom dark theme |
-| Charts | Recharts (line charts + radar) |
-| Database | IndexedDB (fully local, no server) |
-| Auth | PBKDF2 / Web Crypto API |
-| Android | WebView wrapper (Java, minSdk 24) |
-| Fonts | Oswald + Barlow |
-
----
-
-## 🚀 Getting Started (Developers)
-
-### Prerequisites
-- Node.js 18+
-- Android Studio (for Android build)
-- Java 17
-
-### Build
-
-```bash
-# 1. Install dependencies
-cd frontend
-npm install
-
-# 2. Build React app
-npm run build
-
-# 3. Copy to Android assets
-xcopy /E /I /Y dist "..\app\src\main\assets\www"
-
-# 4. Open BaselineApp-Android/ in Android Studio
-# 5. File → Sync Project with Gradle Files
-# 6. Run with the green triangle
-```
-
-### Gradle Requirements
-- Gradle 8.11
-- compileSdk 34 / targetSdk 34
-- minSdk 24 (Android 7.0+)
-- Java 17
-
----
-
 ## 📄 Privacy Policy
 
 BaselineApp collects no personal data. All data is stored locally on your device and is never transmitted to any server or third party.
